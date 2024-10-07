@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/home.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="icon" href=".//img/icon.png" type="image/x-icon">
+    <script src=".//javascript/home.js" defer></script>
+    <title>Dodgebot</title>
+</head>
+<body>
+    <header>
+        <nav class="menu-fixo">
+            <div class="logo">
+                <img src="./img/logo.png" alt="Logo"> <!-- Substitua pela imagem da sua logo -->
+            </div>
+            <ul class="menu-links">
+                <li><a href="#sobre">About</a></li>
+                <li><a href="#descricao">Description</a></li>
+                <li><a href="#creditos">Credits</a></li>
+            </ul>
+            <a href="https://github.com/klissiadev/dodgebot_pygame" class="btn-jogar">Play now</a>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <!-- Carrossel -->
+            <div class="carrossel">
+                <img src=".//img/tela2.png" class="slide" alt="Imagem 1">
+                <img src=".//img/tela1.png" class="slide" alt="Imagem 2">
+                <img src=".//img/tela4.png" class="slide" alt="Imagem 5">
+                <img src=".//img/tela5.png" class="slide" alt="Imagem 6">
+                <img src=".//img/tela.png" class="slide" alt="Imagem 3">
+                <img src=".//img/tela3.png" class="slide" alt="Imagem 4">
+                <!-- Botões de navegação -->
+                <button class="prev" onclick="mudarSlide(-1)">&#10094;</button>
+                <button class="next" onclick="mudarSlide(1)">&#10095;</button>
+            </div>
+    
+            <div class="conteudo">
+                <img src="./img/logo.png" alt="logo">
+                <p>IT´S ALL ABOUT DODGING</p>
+                <button class="btn-saiba-mais" href="#"><a href="https://drive.google.com/file/d/1A7ftquy0HLWmUTzeAgI16m1RWsp_TpVZ/view?usp=drivesdk">Find out more...</a></button>
+            </div>
+        </div>
+        <section id="sobre">
+            <div id="texto">
+                <h1>About Dodgebot Game</h1>
+                <p>At the ESD (Elite School of Dodgebot), Professor Jucibot leads another exciting day of lessons, 
+                    teaching his students the rules and fundamentals of Dodgebot. To test their learning, he challenges two of his best students, 
+                    b01 and b02, to a match. This game will reveal how well they have mastered the skills of dodging, defending, 
+                    and counterattacking in a dynamic environment. With obstacles on the field and unpredictable ball movements, 
+                    the stakes are high as they prepare to prove their capabilities. 
+                    The challenge intensifies as players can defend against incoming balls, adding a layer of strategy and skill. 
+                    The unpredictable nature of the obstacles and ball movements makes 
+                    Dodgebot an exciting and fast-paced robotic twist on a classic game.</p>
+            </div>
+            <div id="divimg"><img src="./img/tela1.png" alt=""></div>
+            <img src="./img/horizontal-solid.png" alt="" id="block1">
+            <img src="./img/horizontal-breakable.png" alt="" id="block2">
+            <img src="./img/horizontal-translucent.png" alt="" id="block3">
+            <img src="./img/horizontal-chaotic.png" alt="" id="block4">
+        </section>
+    
+        <section id="descricao">
+            <h1>Descrição</h1>
+            <table class="descricao-tabela">
+                <tr>
+                    <td>Release date</td>
+                    <td>October 7, 2024</td>
+                </tr>
+                <tr>
+                    <td>Number of players</td>
+                    <td>2 players</td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>Multiplayer-atari game</td>
+                </tr>
+                <tr>
+                    <td>Age Rating</td>
+                    <td>Rated G</td>
+                </tr>
+                <tr>
+                    <td>Game file size</td>
+                    <td>4,95 MB</td>
+                </tr>
+            </table>
+            <img src="./img/player1.png" alt="" id="player1">
+            <img src="./img/player2.png" alt="" id="player2">
+        </section>
+    
+        <section id="creditos">
+            <h1>Credits</h1>
+            <div class="creditos-equipe">
+                <p><i class="icon-dev"></i>Development team:</p>
+                <ul>
+                    <li>
+                        ALEXANDRE ELIAS LUIZ CUSTODIO
+                        <a href="mailto:aelcu.snf24@uea.edu.br">
+                            <span class="material-symbols-outlined">mail</span>
+                        </a>
+                    </li>
+                    <li>
+                        ANA KLISSIA FURTADO MARTINS
+                        <a href="mailto:akfma.snf24@uea.edu.br">
+                            <span class="material-symbols-outlined">mail</span>
+                        </a>
+                    </li>
+                    <li>
+                        ARTHUR MARSHALL CAVALCANTE REZENDE
+                        <a href="mailto:amcr.snf24@uea.edu.br">
+                            <span class="material-symbols-outlined">mail</span>
+                        </a>
+                    </li>
+                    <li>
+                        JOAO GUILHERME GOMES MONTEIRO
+                        <a href="mailto:jggm.snf24@uea.edu.br">
+                            <span class="material-symbols-outlined">mail</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        
+    </main>
+    <footer>
+        <p>© 2024 DodgeBot Team Inc. All rights reserved.</p>
+    </footer>
+</body>
+</html>
