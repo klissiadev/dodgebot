@@ -467,6 +467,10 @@ footer {
     #sobre #texto{
         width: 100%;
     }
+    #descricao{
+        width: 100%;
+        margin: 0;
+    }
     #block1{
         display: none;
     }
